@@ -21,7 +21,7 @@ def opp():
         password = browser.find_element_by_id('login-password')
         password.send_keys("passofrj")
         password.send_keys(Keys.ENTER)
-        search = browser.find_element_by_xpath('//*[@id="ember31"]/input')
+        search = browser.find_element_by_xpath('//*[@id="ember31"]/input')// print
 
         print(search)
 
